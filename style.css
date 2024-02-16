@@ -7,7 +7,7 @@
 
 .main-container{
     width: 100%;
-    min-height: 100vh;
+    min-height: 100vh; 
     padding: 10px;
     background: linear-gradient( 135deg, #153677, #4e085f);    
 }
@@ -21,6 +21,15 @@
     border-radius: 10px;
 }
 
+.todo-list h2{
+display: flex;
+text-align: center;
+color: #002765;
+margin-bottom: 20px;
+}
 
-
-
+.todo-list img{
+    width: 30px;
+    margin-left: 10px;
+    
+}
