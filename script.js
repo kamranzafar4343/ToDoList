@@ -8,8 +8,10 @@ function addTask(){
     }
 
     else{
-        const li = document.getElementById("li"); //stores li
-        li.innerHTML = inputBox.value; //stores value entered by user in input box
+        let li = document.createElement("li"); //create li element and stores in li variable
+        li.innerHTML = inputBox.value; //stores input box's values
         listContainer.appendChild(li); //displays the li
     }
+
+    innerHTML="";
 }
