@@ -72,4 +72,18 @@ ul li{
     padding: 12px 8px 12px 50px;
     font-size: 17px;
     user-select: none;
+    position: relative;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 26px;
+    width: 25px;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 9.5px;
+    left: 8px;
+    border-radius: 50%;
 }
